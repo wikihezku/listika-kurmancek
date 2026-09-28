@@ -1,0 +1,637 @@
+{
+	"questions": [
+		{
+			"id": "e01",
+			"level": "easy",
+			"translation": "I see you.",
+			"parts": [
+				{ "options": ["Ez", "Min"], "answer": "Ez" },
+				" ",
+				{ "options": ["tu", "te"], "answer": "te" },
+				" dibînim."
+			],
+			"explanation": "Ev dema niha ye. Di dema niha de fail xwerû ye: ez. Mefûl tewandî ye: te. Fiil li gor failî ye: dibîn-im."
+		},
+		{
+			"id": "e02",
+			"level": "easy",
+			"translation": "I saw you.",
+			"parts": [
+				{ "options": ["Ez", "Min"], "answer": "Min" },
+				" ",
+				{ "options": ["tu", "te"], "answer": "tu" },
+				" dît",
+				{ "options": ["im", "î", "in"], "answer": "î", "suffix": true },
+				"."
+			],
+			"explanation": "Ev dema borî ye û 'dîtin' fiilekî bi mefûl e. Wê demê fail tewandî dibe (min), mefûl xwerû dimîne (tu). Fiil li gor mefûlê diguhere: tu, lewma dît-î."
+		},
+		{
+			"id": "e03",
+			"level": "easy",
+			"translation": "You saw me.",
+			"parts": [
+				{ "options": ["Tu", "Te"], "answer": "Te" },
+				" ",
+				{ "options": ["ez", "min"], "answer": "ez" },
+				" dît",
+				{ "options": ["im", "î", "in"], "answer": "im", "suffix": true },
+				"."
+			],
+			"explanation": "Dema borî, fiilê bi mefûl: fail tewandî ye (te), mefûl xwerû ye (ez). Fiil li gor 'ez' diguhere: dît-im."
+		},
+		{
+			"id": "e04",
+			"level": "easy",
+			"translation": "She sees me.",
+			"parts": [
+				{ "options": ["Ew", "Wê"], "answer": "Ew" },
+				" ",
+				{ "options": ["ez", "min"], "answer": "min" },
+				" dibîne."
+			],
+			"explanation": "Dema niha: fail xwerû ye (ew), mefûl tewandî ye (min). Fiil li gor failî ye: dibîn-e."
+		},
+		{
+			"id": "e05",
+			"level": "easy",
+			"translation": "I came.",
+			"parts": [
+				{ "options": ["Ez", "Min"], "answer": "Ez" },
+				" hat",
+				{ "options": ["im", "î", "in"], "answer": "im", "suffix": true },
+				"."
+			],
+			"explanation": "'Hatin' fiilekî bê mefûl e. Bi fiilê bê mefûl, di dema borî de jî fail xwerû ye: ez. Fiil li gor failî ye: hat-im."
+		},
+		{
+			"id": "e06",
+			"level": "easy",
+			"translation": "He ate the bread.",
+			"parts": [
+				{ "options": ["Ew", "Wî", "Wê"], "answer": "Wî" },
+				" nan xwar."
+			],
+			"explanation": "Dema borî, fiilê bi mefûl: fail tewandî ye. Ji bo mêr 'wî', ji bo jinê 'wê' tê gotin. Nan yek e, lewma dawiya fiil vala ye: xwar."
+		},
+		{
+			"id": "e07",
+			"level": "easy",
+			"translation": "We are going home.",
+			"parts": [
+				{ "options": ["Em", "Me"], "answer": "Em" },
+				" diç",
+				{ "options": ["im", "e", "in"], "answer": "in", "suffix": true },
+				" malê."
+			],
+			"explanation": "Dema niha: fail xwerû ye: em. Fiil li gor 'em' ye: diç-in."
+		},
+		{
+			"id": "e08",
+			"level": "easy",
+			"translation": "They slept.",
+			"parts": [
+				{ "options": ["Ew", "Wan"], "answer": "Ew" },
+				" raza",
+				{ "options": ["m", "yî", "n"], "answer": "n", "suffix": true },
+				"."
+			],
+			"explanation": "'Razan' bê mefûl e, lewma fail xwerû ye: ew. Li vir 'ew' pir in, lewma fiil '-n' distîne: raza-n."
+		},
+		{
+			"id": "e09",
+			"level": "easy",
+			"translation": "Did you (plural) see us?",
+			"parts": [
+				{ "options": ["Hûn", "We"], "answer": "We" },
+				" ",
+				{ "options": ["em", "me"], "answer": "em" },
+				" dît",
+				{ "options": ["im", "î", "in"], "answer": "in", "suffix": true },
+				"?"
+			],
+			"explanation": "Dema borî, fiilê bi mefûl: fail tewandî ye (we), mefûl xwerû ye (em). Fiil li gor 'em' diguhere: dît-in."
+		},
+		{
+			"id": "e10",
+			"level": "easy",
+			"translation": "I am writing a letter.",
+			"parts": [
+				{ "options": ["Ez", "Min"], "answer": "Ez" },
+				" name dinivîs",
+				{ "options": ["im", "î", "e"], "answer": "im", "suffix": true },
+				"."
+			],
+			"explanation": "Dema niha: fail xwerû ye: ez. Fiil li gor failî ye: dinivîs-im."
+		},
+		{
+			"id": "e11",
+			"level": "easy",
+			"translation": "The children came.",
+			"parts": [
+				"Zarok",
+				{ "options": ["an", "ê", "î"], "answer": "", "suffix": true },
+				" hat",
+				{ "options": ["im", "î", "in"], "answer": "in", "suffix": true },
+				"."
+			],
+			"explanation": "'Hatin' bê mefûl e, lewma 'zarok' xwerû dimîne û '-an' nastîne. Zarok pir in, lewma fiil '-in' distîne: hat-in."
+		},
+		{
+			"id": "e12",
+			"level": "easy",
+			"translation": "We saw him.",
+			"parts": [
+				{ "options": ["Em", "Me"], "answer": "Me" },
+				" ",
+				{ "options": ["ew", "wî"], "answer": "ew" },
+				" dît",
+				{ "options": ["im", "î", "in"], "answer": "", "suffix": true },
+				"."
+			],
+			"explanation": "Dema borî, fiilê bi mefûl: fail tewandî ye (me), mefûl xwerû ye (ew). 'Ew' yek e, lewma dawiya fiil vala ye: dît."
+		},
+		{
+			"id": "e13",
+			"level": "easy",
+			"translation": "You are eating an apple.",
+			"parts": [
+				{ "options": ["Tu", "Te"], "answer": "Tu" },
+				" sêvekê dixw",
+				{ "options": ["im", "î", "e", "in"], "answer": "î", "suffix": true },
+				"."
+			],
+			"explanation": "Dema niha: fail xwerû ye: tu. Fiil li gor 'tu' ye: dixw-î."
+		},
+		{
+			"id": "e14",
+			"level": "easy",
+			"translation": "Come with me!",
+			"parts": [
+				"Bi ",
+				{ "options": ["ez", "min"], "answer": "min" },
+				" re were!"
+			],
+			"explanation": "Piştî 'bi ... re', 'ji', 'li', 'ji bo' û yên wek wan her gav şiklê tewandî tê: min, te, wî, wê, me, we, wan."
+		},
+		{
+			"id": "m01",
+			"level": "medium",
+			"translation": "The woman ate the bread.",
+			"parts": [
+				"Jin",
+				{ "options": ["ê", "î", "an"], "answer": "ê", "suffix": true },
+				" nan xwar."
+			],
+			"explanation": "Dema borî, fiilê bi mefûl: fail tewandî ye. Peyva mê ya yekî di tewandinê de '-ê' distîne: jin, jinê."
+		},
+		{
+			"id": "m02",
+			"level": "medium",
+			"translation": "The woman came.",
+			"parts": [
+				"Jin",
+				{ "options": ["ê", "î", "an"], "answer": "", "suffix": true },
+				" hat."
+			],
+			"explanation": "'Hatin' bê mefûl e, lewma fail xwerû dimîne: jin. Tiştek pê ve nabe."
+		},
+		{
+			"id": "m03",
+			"level": "medium",
+			"translation": "The children ate the apples.",
+			"parts": [
+				"Zarok",
+				{ "options": ["an", "ê", "î"], "answer": "an", "suffix": true },
+				" sêv xwar",
+				{ "options": ["im", "î", "in"], "answer": "in", "suffix": true },
+				"."
+			],
+			"explanation": "Dema borî, fiilê bi mefûl: fail tewandî ye. Ji bo yên pir '-an' tê: zarokan. Fiil li gor mefûlê ye: sêv pir in, lewma xwar-in."
+		},
+		{
+			"id": "m04",
+			"level": "medium",
+			"translation": "The children are eating apples.",
+			"parts": [
+				"Zarok",
+				{ "options": ["an", "ê", "î"], "answer": "", "suffix": true },
+				" sêv",
+				{ "options": ["an", "ê", "î"], "answer": "an", "suffix": true },
+				" dixw",
+				{ "options": ["e", "in"], "answer": "in", "suffix": true },
+				"."
+			],
+			"explanation": "Dema niha: fail xwerû ye (zarok), mefûl tewandî ye (sêvan). Fiil li gor failî ye; zarok pir in, lewma dixw-in."
+		},
+		{
+			"id": "m05",
+			"level": "medium",
+			"translation": "I saw them.",
+			"parts": [
+				"Min ",
+				{ "options": ["ew", "wan"], "answer": "ew" },
+				" dît",
+				{ "options": ["im", "î", "in"], "answer": "in", "suffix": true },
+				"."
+			],
+			"explanation": "Dema borî: mefûl xwerû ye (ew). Li vir 'ew' pir in, lewma fiil '-in' distîne: dît-in. 'Wan' şiklê tewandî ye, li vir nayê."
+		},
+		{
+			"id": "m06",
+			"level": "medium",
+			"translation": "They saw me.",
+			"parts": [
+				{ "options": ["Ew", "Wan"], "answer": "Wan" },
+				" ",
+				{ "options": ["ez", "min"], "answer": "ez" },
+				" dît",
+				{ "options": ["im", "î", "in"], "answer": "im", "suffix": true },
+				"."
+			],
+			"explanation": "Dema borî, fiilê bi mefûl: fail tewandî ye (wan), mefûl xwerû ye (ez). Fiil li gor 'ez' ye: dît-im, ne li gor 'wan'."
+		},
+		{
+			"id": "m07",
+			"level": "medium",
+			"translation": "The cat killed the mouse.",
+			"parts": [
+				{ "options": ["Pisîk", "Pisîkê", "Pisîkan"], "answer": "Pisîkê" },
+				" mişk kuşt",
+				{ "options": ["im", "in"], "answer": "", "suffix": true },
+				"."
+			],
+			"explanation": "Dema borî, fiilê bi mefûl: fail tewandî ye. 'Pisîk' mê ye: pisîkê. Mişk yek e, lewma dawiya fiil vala ye: kuşt."
+		},
+		{
+			"id": "m08",
+			"level": "medium",
+			"translation": "The girl saw the boys.",
+			"parts": [
+				"Keçik",
+				{ "options": ["ê", "an"], "answer": "ê", "suffix": true },
+				" kur",
+				{ "options": ["ê", "an"], "answer": "", "suffix": true },
+				" dît",
+				{ "options": ["im", "î", "in"], "answer": "in", "suffix": true },
+				"."
+			],
+			"explanation": "Fail tewandî ye: keçikê. Mefûl xwerû ye û '-an' nastîne: kur. Kur pir in, lewma fiil '-in' distîne: dît-in."
+		},
+		{
+			"id": "m09",
+			"level": "medium",
+			"translation": "We invited you (plural).",
+			"parts": [
+				{ "options": ["Em", "Me"], "answer": "Me" },
+				" ",
+				{ "options": ["hûn", "we"], "answer": "hûn" },
+				" vexwend",
+				{ "options": ["im", "î", "in"], "answer": "in", "suffix": true },
+				"."
+			],
+			"explanation": "Dema borî, fiilê bi mefûl: fail tewandî ye (me), mefûl xwerû ye (hûn). Fiil li gor 'hûn' ye: vexwend-in."
+		},
+		{
+			"id": "m10",
+			"level": "medium",
+			"translation": "The woman was baking bread.",
+			"parts": [
+				{ "options": ["Jin", "Jinê"], "answer": "Jinê" },
+				" nan dipijand",
+				{ "options": ["im", "in"], "answer": "", "suffix": true },
+				"."
+			],
+			"explanation": "Ev jî dema borî ye (di-pijand). Qeyde eynî ye: fail tewandî ye (jinê), mefûl xwerû ye (nan). Nan yek e, lewma dawiya fiil vala ye."
+		},
+		{
+			"id": "m11",
+			"level": "medium",
+			"translation": "The women went to the market.",
+			"parts": [
+				{ "options": ["Jin", "Jinê", "Jinan"], "answer": "Jin" },
+				" çû",
+				{ "options": ["m", "yî", "n"], "answer": "n", "suffix": true },
+				" bazarê."
+			],
+			"explanation": "'Çûn' bê mefûl e: fail xwerû ye û '-an' nastîne. Jin pir in, lewma fiil '-n' distîne: çû-n."
+		},
+		{
+			"id": "m12",
+			"level": "medium",
+			"translation": "You gave me the book.",
+			"parts": [
+				{ "options": ["Tu", "Te"], "answer": "Te" },
+				" kitêb da ",
+				{ "options": ["ez", "min"], "answer": "min" },
+				"."
+			],
+			"explanation": "Dema borî, fiilê bi mefûl: fail tewandî ye (te). Kitêb yek e, lewma fiil 'da' dimîne. Yê ku tişt didinê jî tewandî ye: da min."
+		},
+		{
+			"id": "m13",
+			"level": "medium",
+			"translation": "I will see you tomorrow.",
+			"parts": [
+				"Sibê ",
+				{ "options": ["ez", "min"], "answer": "ez" },
+				" ê ",
+				{ "options": ["tu", "te"], "answer": "te" },
+				" bibînim."
+			],
+			"explanation": "Bi 'ê' karê ku wê paşê bibe tê gotin. Qeyde wek dema niha ye: fail xwerû ye (ez), mefûl tewandî ye (te)."
+		},
+		{
+			"id": "m14",
+			"level": "medium",
+			"translation": "Did you write the letters?",
+			"parts": [
+				{ "options": ["Tu", "Te"], "answer": "Te" },
+				" name nivîsî",
+				{ "options": ["m", "n"], "answer": "n", "suffix": true },
+				"?"
+			],
+			"explanation": "Dema borî, fiilê bi mefûl: fail tewandî ye (te). Name pir in, lewma fiil '-n' distîne: nivîsî-n."
+		},
+		{
+			"id": "m15",
+			"level": "medium",
+			"translation": "The old men sat down.",
+			"parts": [
+				"Kal",
+				{ "options": ["an", "î"], "answer": "", "suffix": true },
+				" rûnişt",
+				{ "options": ["im", "î", "in"], "answer": "in", "suffix": true },
+				"."
+			],
+			"explanation": "'Rûniştin' bê mefûl e, lewma fail xwerû ye: kal. Kal pir in, lewma rûnişt-in."
+		},
+		{
+			"id": "m16",
+			"level": "medium",
+			"translation": "See them!",
+			"parts": [
+				{ "options": ["Ew", "Wan"], "answer": "Wan" },
+				" bibîne!"
+			],
+			"explanation": "Di emrê de fail nayê gotin. Mefûl tewandî ye: wan."
+		},
+		{
+			"id": "m17",
+			"level": "medium",
+			"translation": "The children threw the stones.",
+			"parts": [
+				{ "options": ["Zarok", "Zarokan"], "answer": "Zarokan" },
+				" kevir avêt",
+				{ "options": ["im", "î", "in"], "answer": "in", "suffix": true },
+				"."
+			],
+			"explanation": "Dema borî, fiilê bi mefûl: fail tewandî ye (zarokan). Kevir pir in, lewma fiil '-in' distîne: avêt-in."
+		},
+		{
+			"id": "m18",
+			"level": "medium",
+			"translation": "The children see us.",
+			"parts": [
+				{ "options": ["Zarok", "Zarokan"], "answer": "Zarok" },
+				" ",
+				{ "options": ["em", "me"], "answer": "me" },
+				" dibîn",
+				{ "options": ["im", "e", "in"], "answer": "in", "suffix": true },
+				"."
+			],
+			"explanation": "Dema niha: fail xwerû ye (zarok), mefûl tewandî ye (me). Fiil li gor failî ye; zarok pir in, lewma dibîn-in."
+		},
+		{
+			"id": "m19",
+			"level": "medium",
+			"translation": "The children saw us.",
+			"parts": [
+				{ "options": ["Zarok", "Zarokan"], "answer": "Zarokan" },
+				" ",
+				{ "options": ["em", "me"], "answer": "em" },
+				" dît",
+				{ "options": ["im", "î", "in"], "answer": "in", "suffix": true },
+				"."
+			],
+			"explanation": "Dema borî, fiilê bi mefûl: fail tewandî ye (zarokan), mefûl xwerû ye (em). Fiil li gor 'em' ye: dît-in."
+		},
+		{
+			"id": "h01",
+			"level": "hard",
+			"translation": "Have you seen me?",
+			"parts": [
+				{ "options": ["Tu", "Te"], "answer": "Te" },
+				" ",
+				{ "options": ["ez", "min"], "answer": "ez" },
+				" dît",
+				{ "options": ["ime", "iyî", "iye", "ine"], "answer": "ime", "suffix": true },
+				"?"
+			],
+			"explanation": "Ev jî dema borî ye (dîtiye). Fail tewandî ye (te), mefûl xwerû ye (ez). Fiil li gor 'ez' ye: dît-ime."
+		},
+		{
+			"id": "h02",
+			"level": "hard",
+			"translation": "They have seen us.",
+			"parts": [
+				{ "options": ["Ew", "Wan"], "answer": "Wan" },
+				" ",
+				{ "options": ["em", "me"], "answer": "em" },
+				" dît",
+				{ "options": ["ime", "iyî", "iye", "ine"], "answer": "ine", "suffix": true },
+				"."
+			],
+			"explanation": "Dema borî (dîtiye): fail tewandî ye (wan), mefûl xwerû ye (em). Em pir in, lewma dît-ine."
+		},
+		{
+			"id": "h03",
+			"level": "hard",
+			"translation": "Did you recognize me?",
+			"parts": [
+				{ "options": ["Tu", "Te"], "answer": "Te" },
+				" ",
+				{ "options": ["ez", "min"], "answer": "ez" },
+				" nas kir",
+				{ "options": ["im", "î", "in"], "answer": "im", "suffix": true },
+				"?"
+			],
+			"explanation": "'Nas kirin' fiilekî bi mefûl e. Dawî li 'kir' tê û li gor mefûlê ye: ez, lewma kir-im."
+		},
+		{
+			"id": "h04",
+			"level": "hard",
+			"translation": "I did not forget you.",
+			"parts": [
+				{ "options": ["Ez", "Min"], "answer": "Min" },
+				" ",
+				{ "options": ["tu", "te"], "answer": "tu" },
+				" ji bîr nekir",
+				{ "options": ["im", "î", "in"], "answer": "î", "suffix": true },
+				"."
+			],
+			"explanation": "'Ji bîr kirin' bi mefûl e. Bi 'ne-' jî qeyde naguhere: fail tewandî ye (min), mefûl xwerû ye (tu), fiil li gor 'tu' ye: nekir-î."
+		},
+		{
+			"id": "h05",
+			"level": "hard",
+			"translation": "This man saw me.",
+			"parts": [
+				{ "options": ["Ev mêr", "Vî mêrî", "Van mêran"], "answer": "Vî mêrî" },
+				" ",
+				{ "options": ["ez", "min"], "answer": "ez" },
+				" dît",
+				{ "options": ["im", "î", "in"], "answer": "im", "suffix": true },
+				"."
+			],
+			"explanation": "Fail tewandî ye. Peyva nêr bi 'ev' di tewandinê de dibe 'vî ... -î': vî mêrî. Fiil li gor 'ez' ye: dît-im."
+		},
+		{
+			"id": "h06",
+			"level": "hard",
+			"translation": "These women came yesterday.",
+			"parts": [
+				"Duh ",
+				{ "options": ["ev jin", "vê jinê", "van jinan"], "answer": "ev jin" },
+				" hat",
+				{ "options": ["im", "î", "in"], "answer": "in", "suffix": true },
+				"."
+			],
+			"explanation": "'Hatin' bê mefûl e, lewma fail xwerû ye: ev jin. 'Van jinan' şiklê tewandî ye, li vir nayê. Jin pir in: hat-in."
+		},
+		{
+			"id": "h07",
+			"level": "hard",
+			"translation": "I gave you the books.",
+			"parts": [
+				"Min kitêb da",
+				{ "options": ["m", "yî", "n"], "answer": "n", "suffix": true },
+				" ",
+				{ "options": ["tu", "te"], "answer": "te" },
+				"."
+			],
+			"explanation": "Fiil li gor mefûlê ye: kitêb pir in, lewma da-n. Yê ku tişt didinê tewandî ye: te."
+		},
+		{
+			"id": "h08",
+			"level": "hard",
+			"translation": "He had seen me.",
+			"parts": [
+				{ "options": ["Ew", "Wî", "Wê"], "answer": "Wî" },
+				" ",
+				{ "options": ["ez", "min"], "answer": "ez" },
+				" dîtibû",
+				{ "options": ["m", "yî", "n"], "answer": "m", "suffix": true },
+				"."
+			],
+			"explanation": "Ev jî dema borî ye (dîtibû). Fail tewandî ye (wî), mefûl xwerû ye (ez). Fiil li gor 'ez' ye: dîtibû-m."
+		},
+		{
+			"id": "h09",
+			"level": "hard",
+			"translation": "I had come.",
+			"parts": [
+				{ "options": ["Ez", "Min"], "answer": "Ez" },
+				" hatibû",
+				{ "options": ["m", "yî", "n"], "answer": "m", "suffix": true },
+				"."
+			],
+			"explanation": "'Hatin' bê mefûl e, lewma di hemû demên borî de jî fail xwerû ye: ez. Fiil li gor failî ye: hatibû-m."
+		},
+		{
+			"id": "h10",
+			"level": "hard",
+			"translation": "I used to see them every day.",
+			"parts": [
+				"Min ",
+				{ "options": ["ew", "wan"], "answer": "ew" },
+				" her roj didît",
+				{ "options": ["im", "î", "in"], "answer": "in", "suffix": true },
+				"."
+			],
+			"explanation": "Ev dema borî ye (di-dît). Mefûl xwerû ye (ew) û li vir pir in, lewma fiil '-in' distîne: didît-in."
+		},
+		{
+			"id": "h11",
+			"level": "hard",
+			"translation": "She wanted to see us.",
+			"parts": [
+				{ "options": ["Ew", "Wê"], "answer": "Wê" },
+				" xwest ku ",
+				{ "options": ["em", "me"], "answer": "me" },
+				" bibîne."
+			],
+			"explanation": "Di vê cumleyê de du qeyde hene. 'Xwest' dema borî ye, lewma fail tewandî ye: wê. 'Bibîne' ne dema borî ye, lewma mefûl tewandî ye: me."
+		},
+		{
+			"id": "h12",
+			"level": "hard",
+			"translation": "When I saw you, you were at home.",
+			"parts": [
+				"Dema ",
+				{ "options": ["ez", "min"], "answer": "min" },
+				" ",
+				{ "options": ["tu", "te"], "answer": "tu" },
+				" dît",
+				{ "options": ["im", "î", "in"], "answer": "î", "suffix": true },
+				", ",
+				{ "options": ["tu", "te"], "answer": "tu" },
+				" li malê bûyî."
+			],
+			"explanation": "'Dîtin' bi mefûl e: min tu dîtî. 'Bûn' bê mefûl e, lewma li wir fail xwerû ye: tu bûyî."
+		},
+		{
+			"id": "h13",
+			"level": "hard",
+			"translation": "The man who saw me left.",
+			"parts": [
+				"Mêrikê ku ",
+				{ "options": ["ez", "min"], "answer": "ez" },
+				" dît",
+				{ "options": ["im", "î", "in"], "answer": "im", "suffix": true },
+				" çû."
+			],
+			"explanation": "Fail 'mêrik' e û ez mefûl im. Mefûl xwerû ye (ez) û fiil li gor wî ye: dît-im."
+		},
+		{
+			"id": "h14",
+			"level": "hard",
+			"translation": "The man whom I saw left.",
+			"parts": [
+				"Mêrikê ku ",
+				{ "options": ["ez", "min"], "answer": "min" },
+				" dît",
+				{ "options": ["im", "î", "in"], "answer": "", "suffix": true },
+				" çû."
+			],
+			"explanation": "Li vir ez fail im û 'mêrik' mefûl e. Fail tewandî ye (min). Mêrik yek e, lewma dawiya fiil vala ye: dît."
+		},
+		{
+			"id": "h15",
+			"level": "hard",
+			"translation": "The women saw the child.",
+			"parts": [
+				"Jin",
+				{ "options": ["ê", "an"], "answer": "an", "suffix": true },
+				" zarok dît",
+				{ "options": ["im", "î", "in"], "answer": "", "suffix": true },
+				"."
+			],
+			"explanation": "Fail tewandî ye: jinan. Fiil li gor mefûlê ye, ne li gor failî. Zarok yek e, lewma dawiya fiil vala ye, her çend jin pir in jî."
+		},
+		{
+			"id": "h16",
+			"level": "hard",
+			"translation": "You (plural) sent us to the village.",
+			"parts": [
+				{ "options": ["Hûn", "We"], "answer": "We" },
+				" ",
+				{ "options": ["em", "me"], "answer": "em" },
+				" şand",
+				{ "options": ["im", "î", "in"], "answer": "in", "suffix": true },
+				" gund."
+			],
+			"explanation": "Dema borî, fiilê bi mefûl: fail tewandî ye (we), mefûl xwerû ye (em). Fiil li gor 'em' ye: şand-in."
+		}
+	]
+}

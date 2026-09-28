@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ku">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Min tu dîtî - Imtîhan</title>
+	<link rel="icon" href="data:,">
+	<link rel="stylesheet" href="css/style.css">
+	<script type="module" src="js/app.js"></script>
+</head>
+<body>
+	<main class="app">
+		<header class="app-header">
+			<h1>Min tu dîtî</h1>
+			<p class="subtitle">Imtîhana fail û mefûlê di Kurmancî de</p>
+		</header>
+
+		<section id="screen-start" class="screen">
+			<div class="card">
+				<h2>Qeyde bi kurtî</h2>
+				<dl class="terms">
+					<dt>Fail</dt>
+					<dd>Yê ku karî dike.</dd>
+					<dt>Mefûl</dt>
+					<dd>Yê ku kar li ser wî tê kirin.</dd>
+					<dt>Xwerû</dt>
+					<dd>ez, tu, ew, em, hûn, ew</dd>
+					<dt>Tewandî</dt>
+					<dd>min, te, wî, wê, me, we, wan</dd>
+				</dl>
+				<ul class="rules">
+					<li><strong>Dema niha:</strong> fail xwerû ye, mefûl tewandî ye. Fiil li gor failî ye. <em>Ez te dibînim.</em></li>
+					<li><strong>Dema borî, fiilê bi mefûl</strong> (dîtin, xwarin, kirin...): fail tewandî ye, mefûl xwerû ye. Fiil li gor mefûlê ye. <em>Min tu dîtî.</em></li>
+					<li><strong>Dema borî, fiilê bê mefûl</strong> (hatin, çûn, razan...): fail xwerû ye. <em>Ez hatim.</em></li>
+				</ul>
+			</div>
+
+			<div class="card">
+				<h2>Dereceyê hilbijêre</h2>
+				<div class="levels" id="levels"></div>
+				<p class="error" id="load-error" hidden></p>
+			</div>
+		</section>
+
+		<section id="screen-quiz" class="screen" hidden>
+			<div class="quiz-meta">
+				<span id="quiz-level"></span>
+				<span id="quiz-progress"></span>
+			</div>
+			<div class="progress"><div class="progress-bar" id="progress-bar"></div></div>
+
+			<div class="card">
+				<p class="translation">
+					<span class="label">Tercume:</span>
+					<span id="translation"></span>
+				</p>
+				<p class="sentence" id="sentence"></p>
+				<p class="hint" id="hint" hidden>Ji bo her cihî tiştekî hilbijêre. Eger tiştek nayê wir, "(vala)" hilbijêre.</p>
+
+				<div class="feedback" id="feedback" hidden>
+					<p class="verdict" id="verdict"></p>
+					<p class="correct-line"><span class="label">Cewabê rast:</span> <span id="correct-sentence"></span></p>
+					<p class="explanation"><span class="label">Îzah:</span> <span id="explanation"></span></p>
+				</div>
+
+				<div class="actions">
+					<button type="button" id="btn-check" class="primary">Kontrol bike</button>
+					<button type="button" id="btn-next" class="primary" hidden>Pirsa din</button>
+				</div>
+			</div>
+		</section>
+
+		<section id="screen-results" class="screen" hidden>
+			<div class="card">
+				<h2>Netîce</h2>
+				<p class="score" id="score"></p>
+				<ol class="results" id="results"></ol>
+				<div class="actions">
+					<button type="button" id="btn-again" class="primary">Dîsa bike</button>
+					<button type="button" id="btn-home">Dereceyê biguherîne</button>
+				</div>
+			</div>
+		</section>
+	</main>
+</body>
+</html>
